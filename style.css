@@ -318,6 +318,30 @@ body {
 }
 }
 
+@media screen and (max-width: 540px)
+{
+
+
+  .sidebar {
+    width: 35px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  .left-menu-icon {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+
+}
 
 @media screen and (max-width: 361px)
 {
